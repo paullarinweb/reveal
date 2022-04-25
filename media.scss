@@ -1,0 +1,136 @@
+@media screen and (max-width: 600px) {
+    .header {
+        &__logo,
+        &__acc {
+            margin: 0;
+        }
+    }
+    .intro__text,
+    .preference__text {
+        h1 {
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 45px;
+        }
+    }
+    .intro__bg {
+        min-height: 400px;
+    }
+    .preference__video {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .footer__nav__item {
+        width: 100% !important;
+    }
+    .carts {
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+    .response__comments {
+        padding: 0;
+    }
+    .response__comments__header {
+        margin-bottom: 20px;
+    }
+    .response__comments__item:last-child {
+        margin-top: 30px;
+    }
+    .response__comments__item__left {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer__nav__item {
+        width: 40%;
+    }
+    h2 {
+        font-size: 50px !important;
+        margin: 10px !important;
+    }
+}
+@media (min-width: 850px) {
+    .header__burger {
+        display: none;
+    }
+    .header__acc {
+        display: block;
+    }
+    .header {
+        padding: 16px;
+    }
+    .header__navigation {
+        display: block;
+    }
+    .big-notice__text {
+        font-size: 120px;
+    }
+}
+
+@media (min-width: 990px) {
+    .header__navigation {
+        ul {
+            li {
+                &:last-of-type {
+                    display: block;
+                }
+            }
+        }
+    }
+    .header__menu.active {
+        right: -50%;
+    }
+    .preference__item {
+        padding: 15px;
+    }
+    .response__comments__item__text h3 {
+        max-width: 362px;
+        margin: 0 0 42px 0;
+        font-size: 64px;
+    }
+    .response__comments__item__text p {
+        max-width: 425px;
+        margin: 0 0 60px 0;
+    }
+    .footer__deeds {
+        justify-content: space-between;
+    }
+    .preference__video {
+        video {
+            width: 872px;
+            height: 491px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .intro__text {
+        h1 {
+            font-size: 150px;
+        }
+    }
+    .intro__bg {
+        min-height: 801px;
+    }
+    .preference__items {
+        justify-content: space-between;
+        padding: 70px 0;
+    }
+    .big-notice__text {
+        font-size: 150px;
+    }
+    .footer__nav__item {
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 1399px) and (max-width: 1440px) {
+    .preference__bg {
+        display: block;
+    }
+    .preference__wrapper {
+        margin-top: -696px;
+    }
+}
